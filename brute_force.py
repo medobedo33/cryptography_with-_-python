@@ -4,5 +4,5 @@ def ceaser_bruteforce(ciphertext:str):
     for key in range(1,26):
         print(f"{key}: {ceaser_decrypt(ciphertext,key)}")
 
-ciphertext = "khoor"
+ciphertext = "medo"
 ceaser_bruteforce(ciphertext)        
